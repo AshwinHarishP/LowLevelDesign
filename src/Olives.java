@@ -4,7 +4,11 @@ public class Olives extends PizzaDecarator{
         super(pizza);
     }
     @Override
-    public String getDescription() {}
+    public String getDescription() {
+        return "Olives Pizza";
+    }
     @Override
-    public double getCost() {}
+    public double getCost() {
+        return 299.0;
+    }
 }

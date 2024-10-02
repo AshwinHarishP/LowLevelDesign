@@ -4,8 +4,12 @@ public class Cheese extends PizzaDecarator{
     }
 
     @Override
-    public String getDescription(){};
+    public String getDescription(){
+        return "Cheese Pizza";
+    };
 
     @Override
-    public double getCost(){}
+    public double getCost(){
+        return 499;
+    }
 }

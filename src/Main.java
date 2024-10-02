@@ -16,5 +16,6 @@ public class Main {
 
         pizza = new Peppers(pizza);
         System.out.println(pizza.getDescription() + ": " + pizza.getCost());
+
     }
 }

@@ -1,5 +1,4 @@
-
-abstract class PizzaDecarator implements Pizza{
+class PizzaDecarator implements Pizza{
     protected Pizza pizza;
 
     public PizzaDecarator(Pizza pizza){
@@ -7,10 +6,14 @@ abstract class PizzaDecarator implements Pizza{
     }
 
     @Override
-    public String getDescription(){}
+    public String getDescription(){
+        return pizza.getDescription();
+    }
 
     @Override
-    public double getCost(){}
+    public double getCost(){
+        return pizza.getCost();
+    }
 
 
 

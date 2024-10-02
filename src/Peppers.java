@@ -4,7 +4,12 @@ public class Peppers extends PizzaDecarator{
     }
 
     @Override
-    public String getDescription() {}
+    public String getDescription() {
+        return "Pepper Pizza";
+    }
+
     @Override
-    public double getCost() {}
+    public double getCost() {
+        return 399.0;
+    }
 }
